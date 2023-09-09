@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/NickBenz/.nvm/versions/node/v20.3.0/bin/node /Users/NickBenz/.nvm/versions/node/v18.16.0/bin/yarn add express express-graphql graphql mongoosecors colors
+
+PATH: 
+  /Users/NickBenz/.nvm/versions/node/v20.3.0/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openjdk/bin:/usr/local/opt/openjdk/bin:/Users/NickBenz/.nvm/versions/node/v18.16.0/bin:/Users/NickBenz/.nvm/versions/node/v18.16.0/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openjdk/bin:/Users/NickBenz/.nvm/versions/node/v18.16.0/bin:/usr/local/sbin:/Users/NickBenz/Library/Application Support/JetBrains/Toolbox/scripts:/Users/NickBenz/Library/Android/sdk/emulator:/Users/NickBenz/Library/Android/sdk/platform-tools:/Users/NickBenz/Library/Application Support/JetBrains/Toolbox/scripts:/Users/NickBenz/Library/Android/sdk/emulator:/Users/NickBenz/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongoosecors: Not found
+      at params.callback [as _callback] (/Users/NickBenz/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/NickBenz/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:511:28)
+      at Request.<anonymous> (/Users/NickBenz/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:511:28)
+      at IncomingMessage.<anonymous> (/Users/NickBenz/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:625:28)
+      at IncomingMessage.emit (node:events:523:35)
+      at endReadableNT (node:internal/streams/readable:1367:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
