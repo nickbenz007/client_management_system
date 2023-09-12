@@ -1,3 +1,3 @@
-client_management_system
+Client Management System
 
-Client management system showcasing the client and projects record
+The project is for showcase the use of Graph QL Apollo client & server both and Node js with express.
