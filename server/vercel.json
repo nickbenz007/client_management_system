@@ -1,10 +1,10 @@
 {
     "version": 2,
     "builds": [
-      { "src": "api/graphql.js", "use": "@now/node" }
+      { "src": "api/index.js", "use": "@now/node" }
     ],
     "routes": [
-      { "src": "/graphql", "dest": "/api/graphql.js" }
+      { "src": "/graphql", "dest": "/api/index.js" }
     ]
   }
   
